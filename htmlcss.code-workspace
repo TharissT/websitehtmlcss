@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../ICS3U"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "htmlcss"
+	}
+}
