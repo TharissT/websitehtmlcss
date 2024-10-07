@@ -9,7 +9,18 @@ h1 {
     
 }
 
+.side-bar-content {
+    display: none;
+    height: 12vh;
+    background-color: black;
+    color: white;
+    position: fixed;
+}
 
+.side-bar:hover .side-bar-content {
+    display: grid;
+    grid-template-rows: auto auto;
+}
 
 *{
     margin: 0px;
@@ -19,24 +30,31 @@ h1 {
 
 
 body {
-    background-color: grey
+    background-color: black
 
 }
 
 p {
     color: white;
+    text-align: center;
 
 }
 
 
 
-
+.hero-section {
+    width:100%  
+    
+        
+}
 
 
 button { 
     margin: 10px;
     padding: 15px 20px; 
-    background-color: black;
+    border: white;
+    background-color: grey;
+    text-align: center;
     color: white;
 
 }
@@ -48,9 +66,8 @@ button {
     justify-content:space-around; 
 }
 .img {
-    border: 0.5px solid rgb(0, 0, 0);
-    border-radius: 10px;
-    padding: 7px;
+    border: solid rgb(255, 255, 255);
+    padding: 1;
     width: 300px;
     height: 400px;
   }
@@ -61,9 +78,8 @@ button {
     color: white;
     text-align: center;
     padding: 30px;
-    bottom: 0;
+
     width: 100%;
     position: absolute
-
     
   }
