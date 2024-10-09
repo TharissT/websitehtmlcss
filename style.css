@@ -42,6 +42,7 @@
     color: black;
     font-style: italic;
     font-weight: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
   }
 
 header {
@@ -61,6 +62,9 @@ h1 {
     background-color: black;
     margin: 25px;
     padding: 20px;
+    font-size: 100px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
 }
 
 
@@ -74,8 +78,10 @@ h1 {
 
 .side-bar:hover .side-bar-content {
     display: grid;
+    position: fixed;
     grid-template-rows: auto;
     background-color: grey;
+    text-decoration: underline
 }
 
 *{
@@ -108,10 +114,15 @@ button {
     text-align: middle;
     color: white;
     position: center;
+    justify-content: center;
 
 }
 
-
+.buttons {
+  display: flex;
+  justify-content: center
+  
+}
 .main {
 
     display: flex;
@@ -129,7 +140,8 @@ button {
     background-color: black;
     color: white;
     text-align: center;
-    padding: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     width: 100%;
     position: absolute
   }
