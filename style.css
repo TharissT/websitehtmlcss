@@ -32,7 +32,7 @@
     color: white;
   }
 
-  .centered {
+  .myherosection {
 
     position: absolute;
     top: 43%;
@@ -106,6 +106,7 @@ body {
 }
 
 
+
 button { 
     margin: 10px;
     padding: 15px 20px; 
@@ -123,19 +124,43 @@ button {
   justify-content: center
   
 }
+
+.p1 {
+  color: white;
+  font-size: 100px;
+  text-align: center;
+  font-style: oblique;
+  font-family: sans-serif
+}
+
 .main {
 
     display: flex;
     justify-content:space-around; 
 }
 .img {
-    border: solid rgb(255, 255, 255);
+    border: solid rgb(235, 98, 103);
     padding: 1;
     width: 300px;
     height: 400px;
   }
 
+
+  .p2 {
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    font-style: oblique;
+    font-family: sans-serif
+  }
   
+  .img2 {
+    border: solid rgb(345, 328, 103);
+    padding: 1;
+    width: 300px;
+    height: 400px;
+  }
+
   footer {
     background-color: black;
     color: white;
