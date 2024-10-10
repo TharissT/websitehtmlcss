@@ -155,12 +155,17 @@ button {
   }
   
   .img2 {
-    border: solid rgb(345, 328, 103);
+    border: solid rgb(0, 0, 150);
     padding: 1;
     width: 300px;
     height: 400px;
   }
 
+  .main2 {
+
+    display: flex;
+    justify-content:space-around; 
+}
   footer {
     background-color: black;
     color: white;
