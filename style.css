@@ -24,14 +24,14 @@ h1 {
     padding: 10px;
     font-size: 50px;
     font-style: italic;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "Bebas Neue", sans-serif; 
     z-index: 1000; 
 }
 
 
 .side-bar {
     background-color: #222;
-    width: 120px;
+    width: 100%;
     height: auto;
     position: relative;
     left: 0;
@@ -129,14 +129,14 @@ h1 {
   .myherosection {
 
     position: absolute;
-    top: 43%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 80px;
+    font-size: 50px;
     color: black;
     font-style: italic;
     font-weight: 100;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family: "Vast Shadow", serif;
   }
 
 header {
@@ -166,6 +166,7 @@ body {
 button { 
     margin: 10px;
     padding: 15px 20px; 
+    bottom: 20px;
     border: white;
     background-color: grey;
     text-align: middle;
@@ -174,19 +175,18 @@ button {
     justify-content: center;
 }
 
+.collage {
+  opacity: 50%;
+  position: center;
+  width: 100%;
 
-.buttons {
-  display: flex;
-  justify-content: center
-  
 }
-
 .p1 {
   color: white;
   font-size: 100px;
   text-align: center;
-  font-style: oblique;
-  font-family: sans-serif
+  font-style: italic;
+  font-family: "Bebas Neue", sans-serif; 
 }
 
 .main {
@@ -206,8 +206,9 @@ button {
     color: white;
     font-size: 100px;
     text-align: center;
-    font-style: oblique;
-    font-family: sans-serif
+    font-style: italic;
+    font-family: "Bebas Neue", sans-serif; 
+  
   }
   
   .img2 {
