@@ -163,22 +163,38 @@ body {
 
 
 
-button { 
-    margin: 10px;
-    padding: 15px 20px; 
-    bottom: 20px;
-    border: white;
-    background-color: grey;
-    text-align: middle;
-    color: white;
-    position: center;
-    justify-content: center;
-}
+.signbuttons {
+  background-color: grey;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transform: translate(290%, -600%);
+  opacity: 50%;
+
+  }
+
+
 
 .collage {
   opacity: 50%;
   position: center;
   width: 100%;
+
+.mycollage {
+    font-size: 75px;
+    color: white;
+    font-family: "Bebas Neue", sans-serif; 
+    position: center; 
+    text-align: center; 
+    top: 20%;
+    transform: translate(5%, -400%);
+  }
 
 }
 .p1 {
